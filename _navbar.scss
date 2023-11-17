@@ -1,0 +1,37 @@
+@import 'mediaqueries';
+
+.navbar {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: $text-color;
+    padding: 20px;
+    align-items: center;
+
+    h1 {
+        color: $text-color;
+        font-size: 40px;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+        letter-spacing: 10px;
+    }
+
+    &-links {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        align-items: center;
+
+        @include tablet{
+            display: none;
+        }
+        a{
+            color: #fff;
+            margin-right: 20px;
+        }
+
+    }
+
+}

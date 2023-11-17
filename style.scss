@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+@import '_variables';
+@import 'components';
+@import '_header';
+@import '_navbar';
+@import '_events';
+@import '_explore';
+@import '_tours';
+@import '_footer';
+@import '_mediaqueries';
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: $body-color;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.menu-btn{
+    display: none;
+    width: 30px;
+    @include tablet{
+        display: block;
+    }
+    @include mobile{
+        display: block;
+    }
+}
+
+

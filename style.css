@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+.mybutton {
+  display: inline-block;
+  color: whitesmoke;
+  background-color: #fc036b;
+  padding: 10px 15px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+.mybutton:hover {
+  background-color: whitesmoke;
+  color: #fc036b;
+  border: 1px solid #fc036b;
+}
+
+.line {
+  background-color: #fc036b;
+  width: 150px;
+  height: 5px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.header {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(/img/header-bg.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-content {
+  color: whitesmoke;
+  text-align: center;
+}
+.header h1 {
+  font-size: 7vmin;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.header h2 {
+  font-size: 4vmin;
+}
+
+.navbar {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: whitesmoke;
+  padding: 20px;
+  align-items: center;
+}
+.navbar h1 {
+  color: whitesmoke;
+  font-size: 40px;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  letter-spacing: 10px;
+}
+.navbar-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .navbar-links {
+    display: none;
+  }
+}
+.navbar-links a {
+  color: #fff;
+  margin-right: 20px;
+}
+
+.events {
+  margin-bottom: 40px;
+}
+.events-title {
+  text-align: center;
+  font-size: 4vmin;
+  margin: 50px 0;
+  color: #484872;
+}
+.events-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+.events-row-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  gap: 15px;
+}
+.events-row-col h4 {
+  color: #484872;
+}
+.events-row-col p {
+  text-align: start;
+  word-wrap: wrap;
+  word-break: break-all;
+  color: #49497e;
+  font-size: 18px;
+  width: 80%;
+}
+.events-row-col img {
+  width: 80%;
+  border-radius: 5px;
+}
+
+.explore {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/img/bg2.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.explore-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+.explore-content p {
+  color: rgb(156, 139, 109);
+  width: 80%;
+}
+.explore-content #line {
+  margin-top: -25px;
+  width: 190px;
+}
+.explore-content h1 {
+  color: whitesmoke;
+  font-size: 7vmin;
+  text-align: center;
+}
+
+.tours {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 15px 30px;
+}
+.tours-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  margin-right: 5px;
+  gap: 20px;
+}
+.tours-left p {
+  width: 50%;
+}
+.tours-right {
+  width: 510px;
+  margin-top: 10px;
+}
+.tours-right-gallery img {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  background-color: #484872;
+  width: 100%;
+  text-align: center;
+  padding: 20px 80px;
+}
+footer p {
+  color: whitesmoke;
+  margin: 20px auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(254, 254, 254);
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.menu-btn {
+  display: none;
+  width: 30px;
+}
+@media screen and (max-width: 768px) {
+  .menu-btn {
+    display: block;
+  }
+}
+@media screen and (max-width: 540px) {
+  .menu-btn {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */
